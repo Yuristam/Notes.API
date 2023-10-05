@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A5B37F61-E2AB-4E9C-AA8F-8F5F0E64DC7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{41D7AC1A-E3F3-444E-88B3-C76E1921A266}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3CE4C2AB-9DFB-4329-A743-6752AF99014E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AA9E099C-1B5D-49A1-B6A3-10B8B691C6C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Domain", "Notes.Domain\Notes.Domain.csproj", "{CF0769DC-B6D1-4C7A-8212-A1280AA2F962}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Application", "Notes.Application\Notes.Application.csproj", "{44018D6E-1042-43E7-9EAA-C21C35835347}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Persistence", "Notes.Persistence\Notes.Persistence.csproj", "{ADB94832-99D1-4AF2-B155-08592F229FC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.WebApi", "Notes.WebApi\Notes.WebApi.csproj", "{7816A959-76B1-4D4C-A021-9947EDC1C713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Tests", "Notes.Tests\Notes.Tests.csproj", "{18E39767-2C96-4D96-8C76-F6AAC73F8A60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF0769DC-B6D1-4C7A-8212-A1280AA2F962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0769DC-B6D1-4C7A-8212-A1280AA2F962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0769DC-B6D1-4C7A-8212-A1280AA2F962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0769DC-B6D1-4C7A-8212-A1280AA2F962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44018D6E-1042-43E7-9EAA-C21C35835347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44018D6E-1042-43E7-9EAA-C21C35835347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44018D6E-1042-43E7-9EAA-C21C35835347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44018D6E-1042-43E7-9EAA-C21C35835347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB94832-99D1-4AF2-B155-08592F229FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB94832-99D1-4AF2-B155-08592F229FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB94832-99D1-4AF2-B155-08592F229FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB94832-99D1-4AF2-B155-08592F229FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7816A959-76B1-4D4C-A021-9947EDC1C713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7816A959-76B1-4D4C-A021-9947EDC1C713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7816A959-76B1-4D4C-A021-9947EDC1C713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7816A959-76B1-4D4C-A021-9947EDC1C713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E39767-2C96-4D96-8C76-F6AAC73F8A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E39767-2C96-4D96-8C76-F6AAC73F8A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E39767-2C96-4D96-8C76-F6AAC73F8A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E39767-2C96-4D96-8C76-F6AAC73F8A60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF0769DC-B6D1-4C7A-8212-A1280AA2F962} = {A5B37F61-E2AB-4E9C-AA8F-8F5F0E64DC7F}
+		{44018D6E-1042-43E7-9EAA-C21C35835347} = {A5B37F61-E2AB-4E9C-AA8F-8F5F0E64DC7F}
+		{ADB94832-99D1-4AF2-B155-08592F229FC5} = {41D7AC1A-E3F3-444E-88B3-C76E1921A266}
+		{7816A959-76B1-4D4C-A021-9947EDC1C713} = {3CE4C2AB-9DFB-4329-A743-6752AF99014E}
+		{18E39767-2C96-4D96-8C76-F6AAC73F8A60} = {AA9E099C-1B5D-49A1-B6A3-10B8B691C6C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A9C11E4-011E-42B5-A135-7C644CD04EDC}
+	EndGlobalSection
+EndGlobal
